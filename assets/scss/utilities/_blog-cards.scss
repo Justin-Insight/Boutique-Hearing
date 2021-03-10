@@ -1,0 +1,52 @@
+.blog-summary {
+  margin: 1rem;
+  &__link {
+    text-decoration: none;
+    color: $lightGray;
+    h3 {
+      transition: 0.3s ease-out;
+    }
+    &:hover,
+    &:focus {
+      color: $lightGray;
+      .blog-summary__read-more {
+        svg {
+          fill: $primaryColor;
+          transform: translateX(5px);
+        }
+      }
+      .blog-summary__img {
+        opacity: 0.7;
+      }
+    }
+  }
+  &__image-wrap {
+    margin-bottom: 2rem;
+  }
+  &__img {
+    opacity: 1;
+    transition: opacity 0.3s ease-out;
+  }
+  &__title {
+    margin-bottom: 0;
+  }
+  &__entry-meta {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    transition: 0.3s ease-out;
+  }
+  &__summary {
+    transition: 0.3s ease-out;
+  }
+  &__read-more {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease-out;
+    svg {
+      width: 20px;
+      margin-left: 5px;
+      transition: 0.3s ease-out;
+    }
+  }
+}

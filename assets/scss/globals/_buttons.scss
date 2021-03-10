@@ -2,31 +2,30 @@
   position: relative;
   z-index: 1;
   display: inline-block;
-  letter-spacing: 1px;
-  font-size: 2.4rem;
   font-weight: 700;
-  letter-spacing: 0.015em;
-  padding: 2.25rem 5rem;
+  padding: 0.5rem 1.5rem;
   text-decoration: none;
-  border-radius: 15px;
+  border-radius: 4px;
   transition: 0.3s ease-in-out;
 }
 .btn-primary {
-  color: $medBlue;
-  background-color: $white;
+  color: $primaryColor;
+  border: 1px solid $primaryColor;
   &:hover,
   &:focus {
-    color: $medBlue;
-    background-color: rgba($white, 0.8);
+    color: $white;
+    border: 1px solid $primaryColor;
+    background: $primaryColor;
   }
 }
 .btn-secondary {
   color: $white;
-  background-image: $blueGradient;
+  border: 1px solid $white;
   &:hover,
   &:focus {
     color: $white;
-    background-image: $blueGradientReverse;
+    border: 1px solid $primaryColor;
+    background: $primaryColor;
   }
 }
 .center-button {

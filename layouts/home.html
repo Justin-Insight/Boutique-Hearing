@@ -1,35 +1,67 @@
 {{ define "main" }}
-<section class="container blog-container" data-scroll-section>
-  {{ range .Paginator.Pages.ByDate.Reverse }}
-  <article class="fade-up blog-summary">
-    <a href="{{ .Permalink }}" class="blog-summary__link">
-      <div class="flex flex-column flex-row-m">
-        <div class="w-100 w-30-m">
-          <div class="blog-summary__image-wrap">
-            {{ $has_image := .Params.image }}
-            {{ if $has_image }}
-            <img src="{{ .Permalink }}{{ .Params.image }}" alt="" class="blog-summary__img img-responsive zoom-images">
-            {{ else }}
-            <img src="https://source.unsplash.com/random/800x600" alt="" class="blog-summary__img img-responsive zoom-images">
-            {{  end }}
-          </div>
-        </div>
-        <div class="w-100 w-70-m">
-          <div class="blog-summary__content">
-            <h3 class="blog-summary__title g4">{{ .Title }}</h3>
-            {{ partial "blog/entry-meta" . }}
-            <p class="blog-summary__summary">
-              {{ if .Params.summary }}{{ .Params.summary | safeHTML }}{{ else }}{{ .Summary  | safeHTML }}{{ end }}
-            </p>
-            <span class="blog-summary__read-more">
-              Read More {{ partial "svg-icons/arrow-right.svg" . }}
-            </span>
-          </div>
-        </div>
-      </div>
-    </a>
-  </article>
-  {{ end }}
-  {{ partial "blog/custom-pagination.html" . }}
+<section class="home-hero">
+  <div class="container-wide padding-top-6 padding-bottom-6 flex flex-column flex-row-s flex-center">
+    {{ with .Params.hero }}
+    <div class="w-100 w-50-s">
+      <h1 class="text-primary">{{ .heading }}</h1>
+      <p class="g5 text-white">{{ .subhead | markdownify }}</p>
+      <p class="text-white">{{ .copy }}</p>
+      <a href="/about/" class="btn btn-secondary">{{ .button_text }}</a>
+    </div>
+    <div class="w-100 w-50-s">
+      <img src="{{ .Permalink }}images/{{ .image }}" alt="{{ .image_alt }}" class="home-hero__image">
+    </div>
+    {{ end }}
+  </div>
 </section>
+<section>
+  <div class="container-wide padding-top-10 padding-bottom-10">
+    {{ with .Params.intro }}
+    <h2 class="text-center padding-bottom-2">{{ .heading }}</h2>
+    <div class="flex flex-column flex-row-m">
+      <div class="w-100 w-50-m">
+        <img src="{{ .Permalink }}images/{{ .image }}" alt="{{ .image_alt }}" class="cover">
+      </div>
+      <div class="w-100 w-50-m">
+        {{  range .benefits }}
+          <h3>{{ .heading }}</h3>
+          <p>{{ .copy }}</p>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+<section class="featured-testimonial-container" data-scroll-section>
+ <div class="container-wide padding-top-10 padding-bottom-10">
+  {{ with .Params.testimonial }}
+  <h3 class="g2 text-center text-primary">{{ .heading }}</h3>
+  <p class="text-center text-white">{{ .featured_testimonial }}</p>
+  <p class="text-center text-white">{{ .author }}</p>
+  <div class="text-center">
+    <a href="/testimonials/" class="btn btn-secondary">{{ .button_text }}</a>
+  </div>
+  {{ end }}
+ </div>
+ <div class="container-wide">
+   {{ with .Params.blog }}
+    <h3 class="g2 text-center text-primary">{{ .heading }}</h3>
+    <p class="g5 text-center text-white">{{ .subhead }}</p>
+   {{ end }}
+   <div class="flex flex-column flex-row-m">
+    {{ range first 3 ( .Paginator.Pages.ByDate.Reverse ) }}
+    {{ partial "blog/blog-cards" . }}
+    {{ end }}
+   </div>
+  </div>
+</section>
+<section class="white-noise">
+  <div class="container padding-top-10 padding-bottom-10">
+    {{ with .Params.video }}
+    <h3 class="g2 text-center">{{ .heading }}</h3>
+    {{ end }}
+    {{ .Content }}
+  </div>
+</section>
+{{ partial "cta" . }}
 {{ end }}

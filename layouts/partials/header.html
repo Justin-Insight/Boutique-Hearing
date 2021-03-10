@@ -2,7 +2,33 @@
 <a class="screen-reader-skip-to-content" href="#main-content" tabindex="0">Skip to main content</a>
 <a class="screen-reader-skip-to-content" href="#footer" tabindex="0">Skip to footer content</a>
 <header class="site-header" data-scroll-sticky data-scroll-target="header">
-  <nav class="nav primary-nav">
+  <div class="header-secondary">
+    <div class="container-wide">
+      <nav class="header-secondary__subnav">
+        <ul class="header-secondary__nav-list">
+          <li class="header-secondary__nav-list-item">
+            <a href="tel:{{ site.Params.phone }}">P:{{ site.Params.phone }}</a>
+          </li>
+          <li class="header-secondary__nav-list-item">
+            <a href="/contact/">Request an Appointment</a>
+          </li>
+          <!-- <li class="header-secondary__nav-list-item">
+            <a href="{{ site.Social.instagram }}">Instagram</a>
+          </li>
+          <li class="header-secondary__nav-list-item">
+            <a href="{{ site.Social.facebook }}">Facebook</a>
+          </li>
+          <li class="header-secondary__nav-list-item">
+            <a href="{{ site.Social.youtube }}">Youtube</a>
+          </li>
+          <li class="header-secondary__nav-list-item">
+            <a href="{{ site.Social.linkedin }}">LinkedIn</a>
+          </li> -->
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <nav class="container-wide nav primary-nav">
     <div class="logo-wrapper">
       <a class="brand-logo" href="{{ site.BaseURL }}">
         {{ if site.Params.logo }}

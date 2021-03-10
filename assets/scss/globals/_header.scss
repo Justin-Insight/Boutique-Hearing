@@ -1,5 +1,36 @@
+.header-secondary {
+  background-image: url("/images/bkgrnd-secondary-nav.jpg");
+  background-position: top;
+  background-repeat: repeat-x;
+  overflow: hidden;
+  &__subnav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__nav-list {
+    display: flex;
+    padding: 0;
+  }
+  &__nav-list-item {
+    list-style-type: none;
+    padding: 0 1rem;
+    a {
+      color: $lightGray;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: 700;
+      transition: 0.3s ease;
+      &:hover,
+      &:focus {
+        opacity: 0.8;
+      }
+    }
+  }
+}
 .site-header {
-  background-color: $white;
+  background-image: url("/images/bkgrnd-banner.jpg");
+  background-repeat: repeat-x;
+  background-position: top;
   width: 100%;
   position: fixed;
   top: 0;
@@ -22,7 +53,7 @@
     width: 210px;
     @include breakpoint(sm) {
       width: 100%;
-      max-width: 300px;
+      max-width: 240px;
     }
   }
 }
@@ -33,10 +64,15 @@
   left: 0;
   transform: translateX(120%);
   transition: 0.3s ease-in-out;
-  background-color: $white;
+  background-image: url("/images/bkgrnd-banner.jpg");
+  background-repeat: repeat-x;
+  background-position: top;
+  background-color: $black;
   padding: 0;
   opacity: 0;
   @include breakpoint(md) {
+    background-image: none;
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,93 +93,56 @@
 .nav-item {
   position: relative;
   text-decoration: none;
-  color: $darkBlue;
-  padding: 1.2rem 5rem;
-  font-size: 1.8rem;
-  font-weight: 400;
+  color: $lightGray;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
   display: flex;
   align-items: center;
-  letter-spacing: 0.015em;
   white-space: nowrap;
+  transform-origin: right;
   @include breakpoint(md) {
-    height: 120px;
-    padding: 1.2rem 1.5rem;
+    padding: 0 1rem;
   }
-  &:before {
-    background: $orangeGradient;
-    height: 100%;
-    width: 5px;
+  &:after {
+    background: $lightGray;
+    height: 1px;
+    width: 100%;
+    transform: scaleX(0);
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 0;
     right: 0;
     content: "";
-    opacity: 0;
-    transition: 0.3s ease-in;
-    @include breakpoint(md) {
-      height: 25px;
-      width: 100%;
-      top: -10px;
-    }
+    transition: transform 0.3s ease-in;
+    transform-origin: bottom right;
   }
   &:hover,
   &:focus {
-    &:before {
+    color: $primaryColor;
+    &:after {
       @include breakpoint(md) {
-        height: 25px;
-        width: 100%;
-        top: -10px;
-        background: $orangeGradient;
-        position: absolute;
-        left: 0;
-        right: 0;
-        content: "";
+        transform: scaleX(1);
         opacity: 1;
-      }
-    }
-  }
-}
-.referral {
-  background-image: $orangeGradient;
-  color: $white;
-  height: auto;
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 1.2rem 5rem;
-  transition: 0.3s ease-in-out;
-  @include breakpoint(md) {
-    border-radius: 15px;
-    padding: 1.5rem 3rem;
-  }
-  &:hover,
-  &:focus {
-    color: $white;
-    background-image: $orangeGradientReverse;
-    &:before {
-      @include breakpoint(md) {
-        opacity: 0;
+        transform-origin: bottom left;
       }
     }
   }
 }
 .current {
+  color: $primaryColor;
   position: relative;
   font-weight: 700;
-  &:before {
-    background: $orangeGradient;
-    height: 100%;
-    width: 5px;
+  &:after {
+    background: $lightGray;
+    height: 1px;
+    width: 100%;
+    transform: scaleX(0);
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 0;
     right: 0;
     content: "";
-    opacity: 1;
-    @include breakpoint(md) {
-      height: 25px;
-      width: 100%;
-      top: -10px;
-    }
+    transition: transform 0.3s ease-in;
+    transform-origin: bottom right;
   }
 }
 .nav-list-item:nth-child(7) {
@@ -216,21 +215,17 @@
 }
 @keyframes collapse {
   from {
-    opacity: 1;
     transform: translateY(0);
   }
   to {
-    opacity: 0;
     transform: translateY(-100%);
   }
 }
 @keyframes expand {
   from {
-    opacity: 0;
     transform: translateY(-100%);
   }
   to {
-    opacity: 1;
     transform: translateY(0);
   }
 }

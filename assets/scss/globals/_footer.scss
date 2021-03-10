@@ -1,61 +1,41 @@
 .footer {
-    background-color: $darkBlue;
+  background-color: #000000;
+  color: $white;
+  padding: 4rem;
+  font-size: 1.6rem;
+  a {
     color: $white;
-    padding: 2em;
-    font-size: 1.6rem; 
-    @include breakpoint (lg) {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    text-decoration: none;
+  }
+  &__contact {
+    padding: 0 0 2rem 0;
+  }
+  &__social {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__social-list-item {
+    list-style-type: none;
+    padding: 0 1rem;
+  }
+  &__social-icon {
+    svg {
+      width: 20px;
+      fill: $lightGray;
     }
-    &__copyright {
-        text-align: center;
-        @include breakpoint (md) {
-            display: flex;
-            p {
-                margin: 0;
-                margin-right: .5rem;
-                margin-bottom: 0;
-            }
-        }
+  }
+  &__copyright {
+    text-align: center;
+    @include breakpoint(md) {
+      display: flex;
+      p {
+        font-size: 1.2rem;
+        margin: 0;
+        margin-right: 0.5rem;
+        margin-bottom: 0;
+      }
     }
-    &__nav {
-        display: flex;
-        justify-content: center;
-        ul {
-            margin-bottom: 0;
-        }
-    }
-    &__nav-list {
-        position: relative;
-        display: flex;
-        padding: 0;
-        margin-bottom: 2rem;
-    }
-    &__nav-list-item {
-        list-style-type: none;
-    }
-    &__nav-item {
-        color: $white;
-        &:hover {
-            color: $lightOrange;
-        }
-    }
-    &__nav-list-item + &__nav-list-item{
-        margin-left: .5rem;
-    }
-    .brands {
-        a {
-            margin: 20px 5px;
-            @include breakpoint (lg) {
-                margin: 5px;
-            }
-            svg {
-                max-width: 150px; 
-                @include breakpoint (md) {
-                    max-width: 100%;
-                }
-            }
-        }
-    }
+  }
 }
