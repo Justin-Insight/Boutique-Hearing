@@ -1,5 +1,8 @@
 .blog-summary {
-  margin: 1rem;
+  margin: 1rem 0;
+  @include breakpoint(md) {
+    margin: 2rem;
+  }
   &__link {
     text-decoration: none;
     color: $lightGray;

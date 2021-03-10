@@ -2,7 +2,11 @@
   background-color: #f8f8f8;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   background-image: url("/images/cta-footer-cityscape2.jpg");
+}
+.cta-button {
+  margin-bottom: 4rem;
 }
 .cta-image {
   position: relative;

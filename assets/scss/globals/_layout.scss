@@ -281,8 +281,10 @@
     width: auto;
   }
 }
-.w-50-m + .w-50-m {
-  margin-left: 2rem;
+@include breakpoint(md) {
+  .w-50-m + .w-50-m {
+    margin-left: 2rem;
+  }
 }
 .col {
   flex-basis: 0;

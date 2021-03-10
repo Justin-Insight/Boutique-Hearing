@@ -30,6 +30,13 @@
   width: 1px;
   word-wrap: normal !important;
 }
+.site-main {
+  opacity: 1;
+  margin-top: $mobileHeader;
+  @include breakpoint(md) {
+    margin-top: $desktopHeader;
+  }
+}
 .hero {
   display: flex;
   justify-content: center;
