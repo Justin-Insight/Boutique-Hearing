@@ -124,26 +124,6 @@ h6,
 .b {
   font-weight: bold;
 }
-.underline {
-  position: relative;
-  &:after {
-    position: absolute;
-    content: "";
-    height: 6px;
-    width: 100%;
-    bottom: -5px;
-    left: 0;
-    background-color: $medOrange;
-  }
-}
-.underline-left {
-  position: relative;
-  display: block;
-  background-color: $medOrange;
-  height: 6px;
-  width: 14rem;
-  margin: 3rem 0;
-}
 .strike {
   text-decoration: line-through;
 }

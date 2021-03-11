@@ -6,7 +6,7 @@
        {{ end }}
        {{ $paginator := .Paginate ( where .Data.Pages "Type" "products" ) }}
         {{ range $paginator.Pages }}
-        <div class="flex flex-column flex-row-m flex-center padding-top-2 padding-bottom-2">
+        <div class="fade-up flex flex-column flex-row-m flex-center padding-top-2 padding-bottom-2">
             <div class="w-100 w-50-m">
                 <a href="{{ .Params.website }}">
                     <img src="/images/{{ .Params.image }}" alt="{{ .Params.image_alt }}" class="product-image dim" width="300" height="200">
