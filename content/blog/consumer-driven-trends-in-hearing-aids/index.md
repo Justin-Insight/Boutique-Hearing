@@ -8,7 +8,7 @@ image: trends-768x450.jpg
 
 <!--StartFragment-->
 
-Every year we see advancements in technology and design from the simplest robotic toys to the most cutting-edge cars and smart home systems. Year after year these products become sleeker, faster, and smarter while somehow still remaining user friendly. hearing aids are no exception. Since the launch of the first completely digital hearing aid in 1996 the technological improvements have not stopped.
+Every year we see advancements in technology and design from the simplest robotic toys to the most cutting-edge cars and smart home systems. Year after year these products become sleeker, faster, and smarter while somehow still remaining user friendly. Hearing aids are no exception. Since the launch of the first completely digital hearing aid in 1996 the technological improvements have not stopped.
 
 While many of today’s tech products are developed with the hope of creating a consumer demand, hearing aids were originally created based on consumer’s needs.  Now, hearing aids are evolving like other technologies and are based on the demands of the consumer, especially the baby boomers. Martha Stewart said it best, “Seventy is nothing like the 70 of 20 or 40 years ago, 70 is the new 50!” she told _New You_ magazine. “Not everyone wants to retire, and very few people want to slow down.”  To keep up with this dynamic group, hearing aid manufacturers continue to develop hearing aids that were both cosmetically appealing and technologically advanced.
 

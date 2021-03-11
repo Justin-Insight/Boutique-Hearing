@@ -1,7 +1,7 @@
 ---
 title: Services
 seo:
-  title: Concierge hearing aid Services in Chicago - Boutique Hearing
+  title: Concierge Hearing Aid Services in Chicago - Boutique Hearing
   description: Boutique Hearing offers high quality hearing evaluations, customized, precise hearing aid fittings and service packages that best fits your needs.
 
 intro: 
@@ -23,7 +23,7 @@ service_tiers:
         - heading: Tier One
           subhead: The White Glove Service Package
           service_list: 
-          - item: hearing aid fitting
+          - item: Hearing aid fitting
           - item: "Repair Warranty/ L&D Warranty: 3 yrs"
           - item: "Extended Warranty+ home visits for 5yr"
           - item: "Annual Hearing Evaluation for 5 years"
@@ -37,7 +37,7 @@ service_tiers:
         - heading: Tier Two
           subhead: Basic Package with Exceptional Service
           service_list: 
-          - item: hearing aid fitting
+          - item: Hearing aid fitting
           - item: "Repair Warranty/ L&D Warranty: 3 yrs"
           - item: "Home visits: 2 per year for 3 years"
           - item: "Annual Hearing Evaluation for 3 years"
@@ -47,7 +47,7 @@ service_tiers:
         - heading: Tier Three
           subhead: A la Carte Package
           service_list: 
-          - item: hearing aid fitting
+          - item: Hearing aid fitting
           - item: "Repair Warranty/ L&D Warranty: 3 yrs"
           - item: "Two follow up fitting appointments"
 

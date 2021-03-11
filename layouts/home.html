@@ -15,12 +15,14 @@
   </div>
 </section>
 <section>
-  <div class="container-wide padding-top-10 padding-bottom-10">
+  <div class="fade-up container-wide padding-top-10 padding-bottom-10">
     {{ with .Params.intro }}
     <h2 class="text-center padding-bottom-2">{{ .heading }}</h2>
     <div class="flex flex-column flex-row-m">
-      <div class="w-100 w-50-m">
-        <img src="{{ .Permalink }}images/{{ .image }}" alt="{{ .image_alt }}" class="cover" height="500" width="">
+      <div class="image-wrap w-100 w-50-m">
+        <div class="background-image">
+          <img src="{{ .Permalink }}images/{{ .image }}" alt="{{ .image_alt }}" class="cover" height="500" width="500">
+        </div>
       </div>
       <div class="w-100 w-50-m">
         {{  range .benefits }}
@@ -32,7 +34,7 @@
     {{ end }}
   </div>
 </section>
-<section class="featured-testimonial-container" data-scroll-section>
+<section class="fade-up featured-testimonial-container" data-scroll-section>
  <div class="container padding-top-10 padding-bottom-10">
   {{ with .Params.testimonial }}
   <h3 class="g2 text-center text-primary">{{ .heading }}</h3>
@@ -48,14 +50,14 @@
     <h3 class="g2 text-center text-primary">{{ .heading }}</h3>
     <p class="g5 text-center text-white">{{ .subhead }}</p>
    {{ end }}
-   <div class="featured-posts flex flex-column flex-row-m">
+   <div class="featured-posts">
     {{ range first 3 ( .Paginator.Pages.ByDate.Reverse ) }}
     {{ partial "blog/blog-cards" . }}
     {{ end }}
    </div>
   </div>
 </section>
-<section class="white-noise">
+<section class="fade-up white-noise">
   <div class="container padding-top-10 padding-bottom-10">
     {{ with .Params.video }}
     <h3 class="g2 text-center">{{ .heading }}</h3>

@@ -11,13 +11,6 @@
   background-size: cover;
   background-image: url("/images/bkgrnd-wave-fullwidth-final.jpg");
 }
-.center-underline {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
-  display: block;
-  background-color: $medOrange;
-  height: 6px;
-  width: 14rem;
-  margin: 3rem 0;
+.bell-image {
+  max-height: 650px;
 }

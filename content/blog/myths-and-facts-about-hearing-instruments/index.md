@@ -1,5 +1,5 @@
 ---
-title: Myths and Facts About hearing aids
+title: Myths and Facts About Hearing Aids
 date: 2016-10-19T04:35:38.055Z
 draft: false
 description:

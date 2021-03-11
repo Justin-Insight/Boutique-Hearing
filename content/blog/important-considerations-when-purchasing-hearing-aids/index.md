@@ -1,5 +1,5 @@
 ---
-title: Important Considerations When purchasing Hearing Aids
+title: Important Considerations When Purchasing Hearing Aids
 date: 2016-11-03T04:33:03.728Z
 draft: false
 description:

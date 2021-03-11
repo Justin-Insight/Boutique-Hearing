@@ -54,6 +54,10 @@
     border: 1px solid $primaryColor;
     background: $primaryColor;
     color: $white;
+    &:hover,
+    &:focus {
+      background: $secondaryColor;
+    }
   }
 }
 .thank-you {

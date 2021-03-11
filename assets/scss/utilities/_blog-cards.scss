@@ -1,6 +1,12 @@
 .featured-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   .blog-summary {
     border-bottom: none;
+    @include breakpoint(md) {
+      width: 28%;
+    }
     &__link {
       color: $lightGray;
       &:hover,
@@ -10,6 +16,7 @@
     }
     &__content {
       margin: 0;
+      padding-bottom: 4rem;
     }
   }
 }

@@ -1,11 +1,11 @@
-<section class="inner-cta blue-noise">
+<section class="fade-up inner-cta blue-noise">
     <div class="container-wide padding-top-10 padding-bottom-10 text-center">
         <h3 class="g2 text-white">Schedule a Consultation</h3>
         <a href="/contact/" class="btn btn-secondary">Request an Appointment Today</a>
     </div>
 </section>
 {{ $heroClass := lower .Page.Title }}
-<div class="cta-image {{ anchorize $heroClass }}-image" data-scroll-section>
+<div class="fade-up cta-image {{ anchorize $heroClass }}-image" data-scroll-section>
   <picture>
     <!-- <source sizes="100vw" srcset="{{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-600.webp 500w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1000.webp 800w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1400.webp 1200w, {{ .Site.BaseURL }}images/background-images/{{ anchorize $heroClass }}-hero-1800.webp 1600w" type="image/webp" > -->
     <source sizes="100vw" srcset="{{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-600.jpg 500w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1000.jpg 800w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1400.jpg 1200w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1800.jpg 1600w" type="image/jpeg" > 

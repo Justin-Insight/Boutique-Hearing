@@ -5,6 +5,6 @@ seo:
   description: At Boutique Hearing in Chicago, we provide the best hearing aid products and brands in the industry including Phonak, Resound and Widex.
 
 intro:
-  heading: Quality hearing aids
+  heading: Quality Hearing Aids
   subhead: At Boutique Hearing, we work with partners who share our mission and values. For our clients we chose the most innovative, high-end hearing aids to provide the best quality and performance for all lifestyles.
 ---
