@@ -11,7 +11,7 @@
                           {{ $has_image := .Params.image }}
                           {{ if $has_image }}
                           <img src="{{ .Permalink }}{{ .Params.image }}" alt=""
-                              class="blog-summary__img img-responsive zoom-images">
+                              class="blog-summary__img img-responsive zoom-images" width="300" height="200">
                           {{ end }}
                       </div>
                   </div>

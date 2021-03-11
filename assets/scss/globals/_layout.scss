@@ -286,6 +286,7 @@
 }
 @include breakpoint(md) {
   .w-50-m + .w-50-m {
+    margin-top: 0;
     margin-left: 2rem;
   }
 }

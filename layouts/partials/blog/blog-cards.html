@@ -3,9 +3,9 @@
       <div class="blog-summary__image-wrap">
         {{ $has_image := .Params.image }}
         {{ if $has_image }}
-        <img src="{{ .Permalink }}{{ .Params.image }}" alt="" class="blog-summary__img img-responsive zoom-images">
+        <img src="{{ .Permalink }}{{ .Params.image }}" alt="" class="blog-summary__img img-responsive zoom-images" width="300" height="200">
         {{ else }}
-        <img src="https://source.unsplash.com/random/800x600" alt="" class="blog-summary__img img-responsive zoom-images">
+        <img src="https://source.unsplash.com/random/800x600" alt="" class="blog-summary__img img-responsive zoom-images" width="300" height="200">
         {{  end }}
       </div>
       <div class="blog-summary__content">

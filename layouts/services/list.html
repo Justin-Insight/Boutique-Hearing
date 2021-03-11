@@ -8,26 +8,35 @@
                 <p>{{ .copy | markdownify }}</p>
             </div>
             <div class="w-100 w-50-m">
-                <img src="{{.Permalink }}/images/{{ .image }}" alt="{{ .image_alt }}">
+                <img src="{{.Permalink }}/images/{{ .image }}" alt="{{ .image_alt }}" width="300" height="200">
             </div>
         </div>
        {{ end }}
     </section>
     <section class="why-boutique bg-black">
         <div class="container-wide padding-top-10 padding-bottom-10">
-            {{ with .Params.service_tiers }}
-            <p class="g5 text-primary">{{ .subhead }}</p>
-            {{ range .service_tiers }}
-            <h4 class="text-primary">{{ .heading }}</h4>
-            <p class="text-white"><strong>{{ .subhead }}</strong></p>
-            <ul class="why-boutique__benefits-list">
-                {{ range .service_list }}
-                <li class="why-boutique__benefits-list-item text-white">{{ .item }}</li>
+            {{ partial "service-tier-cards" . }}
+            <div class="padding-top-10">
+                {{ with .Params.additional_services }}
+                <h5 class="g2 text-primary">{{ .heading }}</h5>
+                <p class="g5 text-white">{{ .subhead }}</p>
+                <ul>
+                    {{ range .additional_services_list }}
+                    <li class="text-white">{{ .item }}</li>
+                    {{ end }}
+                </ul>
                 {{ end }}
-            </ul>
-            {{ end }}
-            {{ end }}
+            </div>
         </div>
+    </section>
+    <section class="container padding-top-10 padding-bottom-10">
+        {{ with .Params.service_testimonial }}
+        <h5 class="g2 text-center">{{ .heading }}</h5>
+        <p class="text-center">{{ .testimonial }}<br>{{ .author }}</p>
+        <div class="text-center">
+            <a href="/testimonials/" class="btn btn-primary">{{ .button_text }}</a>
+        </div>
+        {{ end }}
     </section>
     {{ partial "cta-inner" . }}
 {{ end }}

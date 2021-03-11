@@ -24,17 +24,49 @@ service_tiers:
           subhead: The White Glove Service Package
           service_list: 
           - item: Hearing Instrument fitting
-          - item: "Home visits: unlimited for 5 years"
-          - item: "Repair Warranty: 3 years"
-          - item: "L & D Warranty: 3 years"
-          - item: Annual hearing test and instrument maintenance
-          - item: Loaner instruments provided during annual maintenance
-          - item: Loaner instruments provided during hearing instrument repairs
-          - item: Unlimited repairs by mail
-          - item: Batteries 3-year supply
-          - item: "Supplies: 3 years specific to each instrument"
+          - item: "Repair Warranty/ L&D Warranty: 3 yrs"
+          - item: "Extended Warranty+ home visits for 5yr"
+          - item: "Annual Hearing Evaluation for 5 years"
+          - item: Hearing Aid Charger or Batteries (5 yrs)
+          - item: Hearing Aid Supplies (5 yrs)
+          - item: Loaner Hearing Aids (during repairs)
           - item: Dehumidifier
-          - item: Choice of one hearing instrument accessory
-          - item: Discounts on extended warranties
-          - item: Discounts on new instruments
+          - item: Choice of one HA Accessory
+          - item: Discounts on future hearing aid purchases
+
+        - heading: Tier Two
+          subhead: Basic Package with Exceptional Service
+          service_list: 
+          - item: Hearing Instrument fitting
+          - item: "Repair Warranty/ L&D Warranty: 3 yrs"
+          - item: "Home visits: 2 per year for 3 years"
+          - item: "Annual Hearing Evaluation for 3 years"
+          - item: Hearing Aid Charger or Batteries (3 yrs)
+          - item: Hearing Aid Supplies (3 yrs)
+
+        - heading: Tier Three
+          subhead: A la Carte Package
+          service_list: 
+          - item: Hearing Instrument fitting
+          - item: "Repair Warranty/ L&D Warranty: 3 yrs"
+          - item: "Two follow up fitting appointments"
+
+additional_services:
+  heading: Additional Services
+  subhead: Boutique Hearing offers a variety of services for all of your hearing needs. Below is a list of our additional services.
+  additional_services_list:
+  - item: Assistive listening device selection and fittings
+  - item: Loaner hearing instrument services
+  - item: Aural rehabilitation
+  - item: Hearing loss prevention including custom noise plugs, sleep plugs, musician ear plugs, in-ear monitors and swim plugs
+  - item: Tinnitus management
+  - item: Cerumen removal
+  - item: Consulting services
+  - item: Supplies available to be shipped to your home (batteries, cleaning tools, wax traps, etc.)
+
+service_testimonial:
+  heading: Our Clients Say it Best...
+  testimonial: '"Thank you so much for all your help with my recent purchase of new hearing aids. I appreciated your perseverance as we got the new aids to really improve my hearing. It is always a pleasure to work with you."'
+  author: —Shelia H.
+  button_text: More Testimonials
 ---

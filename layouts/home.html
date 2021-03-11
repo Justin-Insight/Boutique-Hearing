@@ -9,7 +9,7 @@
       <a href="/about/" class="btn btn-secondary">{{ .button_text }}</a>
     </div>
     <div class="w-100 w-50-s">
-      <img src="{{ .Permalink }}images/{{ .image }}" alt="{{ .image_alt }}" class="home-hero__image">
+      <img src="{{ .Permalink }}images/{{ .image }}" alt="{{ .image_alt }}" class="home-hero__image" height="500" width="600">
     </div>
     {{ end }}
   </div>
@@ -17,10 +17,10 @@
 <section>
   <div class="container-wide padding-top-10 padding-bottom-10">
     {{ with .Params.intro }}
-    <h2 class="text-center padding-bottom-2 text-primary">{{ .heading }}</h2>
+    <h2 class="text-center padding-bottom-2">{{ .heading }}</h2>
     <div class="flex flex-column flex-row-m">
       <div class="w-100 w-50-m">
-        <img src="{{ .Permalink }}images/{{ .image }}" alt="{{ .image_alt }}" class="cover">
+        <img src="{{ .Permalink }}images/{{ .image }}" alt="{{ .image_alt }}" class="cover" height="500" width="">
       </div>
       <div class="w-100 w-50-m">
         {{  range .benefits }}
@@ -33,7 +33,7 @@
   </div>
 </section>
 <section class="featured-testimonial-container" data-scroll-section>
- <div class="container-wide padding-top-10 padding-bottom-10">
+ <div class="container padding-top-10 padding-bottom-10">
   {{ with .Params.testimonial }}
   <h3 class="g2 text-center text-primary">{{ .heading }}</h3>
   <p class="text-center text-white">{{ .featured_testimonial }}</p>
