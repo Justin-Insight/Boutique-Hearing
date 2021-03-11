@@ -48,7 +48,7 @@
     <h3 class="g2 text-center text-primary">{{ .heading }}</h3>
     <p class="g5 text-center text-white">{{ .subhead }}</p>
    {{ end }}
-   <div class="flex flex-column flex-row-m">
+   <div class="featured-posts flex flex-column flex-row-m">
     {{ range first 3 ( .Paginator.Pages.ByDate.Reverse ) }}
     {{ partial "blog/blog-cards" . }}
     {{ end }}

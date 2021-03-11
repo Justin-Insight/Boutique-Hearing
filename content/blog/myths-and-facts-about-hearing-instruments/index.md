@@ -1,15 +1,14 @@
 ---
-title: Myths and Facts About Hearing Instruments
+title: Myths and Facts About hearing aids
 date: 2016-10-19T04:35:38.055Z
 draft: false
-description: The internet can be a blessing or a curse when it comes to health
-  care. Specifically, when it comes to hearing aids it is nice to be able to
-  research the various products available and read the reviews.
+description:
 image: myths-facts-768x509.jpg
 ---
+
 <!--StartFragment-->
 
-The internet can be a blessing or a curse when it comes to health care. Specifically, when it comes to hearing aids it is nice to be able to research the various products available and read the reviews. Yet, with all the information out there it is hard to tell what is real and what is fiction. To help I complied a list of myths I often hear and explain why they are false.   
+The internet can be a blessing or a curse when it comes to health care. Specifically, when it comes to hearing aids it is nice to be able to research the various products available and read the reviews. Yet, with all the information out there it is hard to tell what is real and what is fiction. To help I complied a list of myths I often hear and explain why they are false.
 
 **Myth**: Hearing aids restore hearing to normal just as prescription eyeglasses can restore vision to 20/20.
 

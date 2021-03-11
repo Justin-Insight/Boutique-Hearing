@@ -2,13 +2,10 @@
 title: Your Hearing Aid Shopping Guide
 date: 2019-11-13T04:13:24.350Z
 draft: false
-description: Shopping is an art! Art by definition is a skill at doing a
-  specific thing, typically one acquired through practice. The art of shopping
-  is something we have been practicing, maybe even perfecting, most of our
-  lives. Our parents teach us how to compare prices and how money doesn’t grow
-  on trees.
+description:
 image: shopping-bags.jpg
 ---
+
 <!--StartFragment-->
 
 Shopping is an art! Art by definition is a skill at doing a specific thing, typically one acquired through practice. The art of shopping is something we have been practicing, maybe even perfecting, most of our lives. Our parents teach us how to compare prices and how money doesn’t grow on trees. We learn through trial and error when it’s worth spending more money for a quality product and when you can hold back. As a society we’ve transitioned from physically shopping in stores to virtual shopping on-line relying on others’ reviews to guide us in our decisions. Where, how, and what we shop for changes as we mature and our financial situation changes, but also varies from purchase to purchase based on the importance we place on the item we are buying.

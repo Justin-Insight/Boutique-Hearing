@@ -1,6 +1,7 @@
 {{ define "main" }}
-{{ partial "blog/blog-hero" . }}
-    <div class="container padding-top-4 padding-bottom-4">
+    <div class="post-content lane-wide container padding-top-4 padding-bottom-4">
+        <h1>{{ .Title }}</h1>
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="featured-image padding-bottom-2">
         {{ .Content  }}
         {{ partial "blog/post-navigation" . }}
     </div>

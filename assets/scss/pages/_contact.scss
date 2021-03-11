@@ -51,7 +51,9 @@
     height: 20rem;
   }
   &__btn {
-    border: none;
+    border: 1px solid $primaryColor;
+    background: $primaryColor;
+    color: $white;
   }
 }
 .thank-you {

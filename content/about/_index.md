@@ -28,7 +28,7 @@ why_boutique:
         - item: All services are completed in the comfort of your home or office
         - item: Less time out of your schedule
         - item: No need to rely on others for a ride
-        - item: Hearing instrument supplies are shipped to you
+        - item: Hearing aid supplies are shipped to you
 
     - heading: Precision
       benefit_list: 
