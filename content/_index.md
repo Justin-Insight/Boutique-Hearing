@@ -8,13 +8,13 @@ hero:
   heading: Tailored Hearing
   subhead: We bring the <strong>white glove service</strong> to you.
   copy: Boutique Hearing is revolutionizing the business of audiology by bringing the “boutique” to you. By definition, “boutique” is a small business that offers customized services—and we do just that. Boutique Hearing tailors everything from a hearing test to a hearing aid fitting and follow-up services to fit your lifestyle.
-  image: ear-logo-blue-brown.png
+  image: ear-logo-blue-brown
   image_alt: pixelated ear logo
   button_text: Learn More
 
 intro:
   heading: Boutique Hearing Strives to Deliver …
-  image: concierge-bell.jpg
+  image: concierge-bell
   image_alt: Close up of a oncierge bell sitting on counter
   benefits:
     - heading: Convenience

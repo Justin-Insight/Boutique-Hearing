@@ -12,6 +12,10 @@ iframe {
 }
 .image-wrap {
   position: relative;
+  height: 500px;
+  @include breakpoint(md) {
+    height: auto;
+  }
 }
 .background-image {
   position: absolute;
@@ -20,14 +24,12 @@ iframe {
   height: 100%;
   width: 100%;
   display: block;
+
   img {
     object-fit: cover;
-    height: auto;
+    height: 100%;
     width: 100%;
     position: relative;
-    @include breakpoint(md) {
-      height: 100%;
-    }
   }
 }
 .cover-image {
