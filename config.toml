@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://boutique-hearing-dev.netlify.app/"
 languageCode = "en-us"
 title = "Boutique Hearing"
 enableRobotsTXT = true
@@ -19,7 +19,7 @@ summaryLength = 30
   email = " "
   address = " "
   googleMapLocation = ""
-  disallowSearchEngines = true
+  disallowSearchEngines = false
   # Google Analitycs
   googleAnalytics = " " # Your ID# search 
   minifyBundles = true
