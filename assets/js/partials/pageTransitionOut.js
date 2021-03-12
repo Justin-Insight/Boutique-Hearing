@@ -11,7 +11,7 @@ function pageTransitionOut({ container }) {
 
     return gsap.to(".site-main", {
         autoAlpha: 0,
-        duration: .7,
+        duration: .2,
         ease: "Expo.easeInOut",
     });
 }

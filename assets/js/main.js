@@ -2,6 +2,7 @@ import barba from '@barba/core';
 import barbaPrefetch from '@barba/prefetch';
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import '@justinribeiro/lite-youtube';
 import { pageTransitionOut, pageTransitionIn, contentAnimation, updateMenu } from './partials';
 
 barba.use(barbaPrefetch);
@@ -81,39 +82,10 @@ function fadeInContent() {
             }
         })
     });
-    if (document.body.contains(fadeWrapper)) {
-        gsap.from(fadeWrapper, {
-            opacity: 0,
-            y: 20,
-            duration: .5,
-            ease: 'Power2.in',
-            delay: .5,
-            scrollTrigger: {
-                trigger: fadeWrapper,
-                start: "top bottom-=25",
-                toggleActions: "play none none reset",
-            }
-        });
-    }
-}
-
-function initZoom() {
-    const zoomImages = document.querySelectorAll(".zoom-image");
-    gsap.utils.toArray(zoomImages).forEach((section) => {
-        const image = section.querySelector('img');
-        gsap.to(image, {
-            scale: 1.1,
-            scrollTrigger: {
-                trigger: section,
-                scrub: true,
-            }
-        })
-    });
 }
 
 function homepageAnimations() {
     fadeInContent();
-    initZoom();
 }
 
 function initPageTransitions() {

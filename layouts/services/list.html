@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <section class="fade-up container padding-top-4 padding-bottom-4">
+    <section class="fade-up container padding-top-10 padding-bottom-10">
        {{ with .Params.intro }}
         <h2 class="primary-text">{{ .heading }}</h2>
         <p class="g5">{{ .subhead }}</p>
@@ -8,7 +8,7 @@
                 <p>{{ .copy | markdownify }}</p>
             </div>
             <div class="w-100 w-50-m">
-                <img src="{{.Permalink }}/images/{{ .image }}" alt="{{ .image_alt }}" width="300" height="200">
+                {{ partial "next-gen-jpg" . }}
             </div>
         </div>
        {{ end }}

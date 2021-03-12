@@ -14,7 +14,7 @@ intro:
 
 
   Boutique Hearing knows that everyone—regardless of lifestyle—will benefit from high-end instruments. Our goal is to not just bring hearing to everyone, but to bring quality hearing to everyone. Because of this, we are restructuring how hearing aid are priced."
-  image: services.jpg
+  image: services
   image_alt: dr.corbett fitting a patient with a hearing aid
 
 service_tiers:

@@ -9,12 +9,7 @@
       <a href="/about/" class="btn btn-secondary">{{ .button_text }}<span class="screen-reader-text"> About Boutique Hearing</span></a>
     </div>
     <div class="w-100 w-50-s">
-      <picture>
-        <source srcset="{{ .Permalink }}images/{{ .image }}.avif 1200w" type="image/avif" >
-        <source srcset="{{ .Permalink }}images/{{ .image }}.webp 1200w" type="image/webp" >
-        <source srcset="{{ .Permalink }}images/{{ .image }}.png 1200w" type="image/png" > 
-        <img src="{{ .Permalink }}images/{{ .image }}.png" alt="{{ .image_alt }}" class="home-hero__image" height="500" width="600">
-      </picture>
+      {{ partial "next-gen-png" . }}
     </div>
     {{ end }}
   </div>
@@ -26,12 +21,7 @@
     <div class="flex flex-column flex-row-m">
       <div class="image-wrap w-100 w-50-m">
         <div class="background-image">
-          <picture>
-            <source srcset="{{ .Permalink }}images/{{ .image }}.avif 1200w" type="image/avif" >
-            <source srcset="{{ .Permalink }}images/{{ .image }}.webp 1200w" type="image/webp" >
-            <source srcset="{{ .Permalink }}images/{{ .image }}.png 1200w" type="image/jpg" > 
-            <img src="{{ .Permalink }}images/{{ .image }}.jpg" alt="{{ .image_alt }}" class="home-hero__image" height="500" width="600">
-          </picture>
+          {{ partial "next-gen-jpg" . }}
         </div>
       </div>
       <div class="w-100 w-50-m">
@@ -72,7 +62,7 @@
     {{ with .Params.video }}
     <h3 class="g2 text-center">{{ .heading }}</h3>
     {{ end }}
-    {{ .Content }}
+    <lite-youtube videoid="pb1QAUkaYns" videotitle="Boutique Hearing Featured on American Health Front"></lite-youtube>
   </div>
 </section>
 {{ partial "cta" . }}
