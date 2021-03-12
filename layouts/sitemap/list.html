@@ -6,11 +6,11 @@
                 <h3>Pages</h3>
                 <ul class="sitemap-nav-list">
                     {{ $url := .RelPermalink }}
-                    {{ range site.Menus.Main }}
+                    {{ range site.Menus.main }}
                     {{ $active := eq $url .URL }}
                     <li class="sitemap-nav-list-item">
                         <a {{if $active }}class="sitemap-nav-item" {{end}} class="sitemap-nav-item" href="{{ .URL }}"
-                            title="{{ .Title }}">{{ .Title }}</a>
+                            title="{{ .Name }}">{{ .Name }}</a>
                     </li>
                     {{ end }}
                 </ul>
@@ -20,7 +20,6 @@
                 <ul class="sitemap-nav-list">
                     {{ $pages := .Site.RegularPages }}
                     {{ $blog := where $pages "Type" "blog" }}
-                    {{ $page := where $pages "Type" "page" }}
                     {{ range $blog }}
                     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
                     {{ end }}
