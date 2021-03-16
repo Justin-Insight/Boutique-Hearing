@@ -15,7 +15,7 @@
             <div class="w-100 w-50-m">
                 <p class="g5">{{ .Title }}</p>
                 <p>{{ .Params.product_description | markdownify }}</p>
-                <a href="{{ .Params.website }}" class="btn btn-primary">{{ .Params.button_text }}</a>
+                <a href="{{ .Params.website }}" class="btn btn-primary" target="_blank" rel="noreferrer">{{ .Params.button_text }}</a>
             </div>
         </div>
         {{ end }}
