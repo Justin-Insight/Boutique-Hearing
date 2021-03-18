@@ -1,5 +1,5 @@
 ---
-title: Random Fun Hearing Facts...Because sometimes you just need to laugh!
+title: Random Fun Hearing Facts...Because Sometimes You Just Need to laugh!
 date: 2017-04-06T04:00:52.731Z
 draft: false
 description:

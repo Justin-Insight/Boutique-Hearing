@@ -7,13 +7,16 @@ seo:
 intro: 
   heading: White Glove Service
   subhead: Boutique Hearing is revolutionizing the business of audiology. We are re-imaging not only the process of hearing aid fittings but also restructuring how they are purchased.
-  copy: "A typical audiology practice will offer levels of hearing aids: entry-level, mid-level and high-end. The price you pay is based on the hearing aid you select. Seems to make sense, right? What if you knew that despite what instrument you selected you are paying for the same follow-up services. Why does this matter?
+  copy: "Previously, when purchasing hearing aids, you would be asked to select your hearing aid based on your lifestyle and how much money you were willing to spend. Those who were “active” and could afford more received high end hearing aids while those who lived a “calm” life or could not afford as much receive a more basic hearing aid. Which on the surface is the same as how you make most of your larger purchases from furniture to cars. However, purchasing a hearing aid is not like purchasing a car. Even someone living a “calm” life does not live in a sound proof bubble so they are still exposed to environmental noises that degrade the speech signal.
 
 
-  A basic hearing aid only allows for basic adjustments. No matter how many times you go back for adjustments, the sound is going to be the same. A high-end instrument has 20+ frequencies that can be adjusted, several background noise management features and options for additional programs. What this means is the person who purchased a basic hearing aid spent money on adjustment services they will never use. 
+  Experience and research have shown that everyone will benefit from the features offered in high end hearing aids. Why? Simple. The more your hearing aids can do to clean up the speech signal the less effort you will have to put into hearing. When you put less effort into hearing your able to enjoy the conversation and more easily recall that conversation later. 
 
 
-  Boutique Hearing knows that everyone—regardless of lifestyle—will benefit from high-end instruments. Our goal is to not just bring hearing to everyone, but to bring quality hearing to everyone. Because of this, we are restructuring how hearing aid are priced."
+  Boutique Hearing’s goal is not to just bring hearing to everyone, but to bring quality hearing to everyone. To accomplish this Boutique Hearing restructured how hearing aids are priced. The Tiered pricing structure described below provides everyone the opportunity to purchase quality hearing aids.
+
+
+  Service Tier’s were designed with my client’s diverse lifestyles and needs in mind. My client’s will receive the same high quality hearing aids whether they purchase them in Tier one, two or three. What varies between the Tiers are the additional white glove services that come with it such as hearing aid accessories, dehumidifiers, and regular follow up visits with Dr. Corbett."
   image: services
   image_alt: dr.corbett fitting a patient with a hearing aid
 

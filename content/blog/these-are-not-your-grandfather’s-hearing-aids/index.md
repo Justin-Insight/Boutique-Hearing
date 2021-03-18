@@ -14,7 +14,7 @@ If you have not seen or thought about hearing aids since your grandfather wore t
 
 Of course, to say that it is just a hearing aid is to say that your latest iPhone is just a mobile phone. The first mobile handheld phone call was made on April 3, 1973. The phone weighted 2.4lbs and measured in at 9x5x1.7 inches. You could talk for a whopping 30 minutes before you needed to charge the phone which took approximately 10 hours!
 
-## Is your Car just a Car?
+## Is Your Car Just a Car?
 
 To say that it is just a hearing aid is to say that your Mercedes Benz is just a car. The first vehicle to be propelled by an internal combustion engine was the Benz Patent-Motorwagen which was created in 1885. The car reached a top speed of 7mph.
 
