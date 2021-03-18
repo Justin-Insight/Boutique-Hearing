@@ -1,5 +1,5 @@
 ---
-title: The Truth about Noise Exposure
+title: The Truth About Noise Exposure
 date: 2017-11-21T04:51:07.003Z
 draft: false
 description:

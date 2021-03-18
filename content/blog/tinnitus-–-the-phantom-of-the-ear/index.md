@@ -10,7 +10,7 @@ image: tinnitus-2.jpg
 
 Remember that saying “You don’t know what you have until its gone”? I’m not sure where it originated but we all learned it’s meaning during the COVID-19 pandemic of 2020. For many of us our busy social lives shrunk down to the quiet contained in the four walls of our homes. Of course, for those suffering from tinnitus they long for the silence that was now altogether gone or rare. Gone were the days when they could sit in their favorite chair reading a book or crawl into bed knowing sleep was seconds away. As now in these serene environments the Phantom of the Ear sneaks up without warning and many times without mercy.
 
-## Who Suffers from Tinnitus
+## Who Suffers From Tinnitus
 
 Tinnitus, that phantom sound only you can hear, affects 45 million Americans according to the American Tinnitus Association. About 90 percent of those experiencing tinnitus also have an underlying hearing loss. This hearing loss is most commonly related to noise exposure which is why musicians today wear hearing protection when performing.
 
@@ -60,7 +60,7 @@ If the above treatments do not offer you enough relief then you may want to cons
 
 Tinnitus thought to be related to psychological conditions such as anxiety, depression, or obsessive compulsive disorder can occasionally be treated with antidepressants or antianxiety medications. However, I want to again be clear that there are currently no FDA approved drugs for the treatment of tinnitus. That being said if your tinnitus is severe and related to a psychological ailment your doctor may prescribe one of these medications. The hope is that these medications would reduce the negative emotions or the psychological burden of the tinnitus.
 
-## You’re Not in this Alone
+## You’re Not in This Alone
 
 With so many options and such mixed reviews it can be hard to know what is best for you. Which is why you should start with a visit to your doctor and audiologist. They will help you find the root cause of your tinnitus and guide you in finding the right treatment for you.
 

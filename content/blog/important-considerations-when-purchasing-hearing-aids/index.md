@@ -12,7 +12,7 @@ The other day my husband, who works for a financial services firm in Chicago, wa
 
 When it comes to purchasing hearing aids people can either go to the internet, to a hearing aid dispenser, or to an audiologist. Much like with the financial choices your outcome will depend on this crucial decision.
 
-## The DIY hearing solution
+## The DIY Hearing Solution
 
 The internet has an abundance of hearing aids for sale from discount sellers as well as individuals. Technically those sold on the internet are not actually classified as hearing aids but as sound amplifiers with limited volume, inadequate or no noise reducing abilities and few adjustments. The actual hearing aids for sale are being sold without proper programming so the consumer will still need to hire an audiologist for this. However, one of the biggest concerns regarding internet purchases is that you do not always know what you are getting. I have sadly witnessed a scenario where someone purchasing a hearing aid on the internet which later needed a repair. Once the aid was sent in the consumer learned that the aid they purchased had essentially been stolen. It was previous reported lost and replaced by the manufacturer. In this scenario the manufacturer rightfully confiscates the hearing aid and consumer is left to start over.
 

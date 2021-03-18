@@ -1,5 +1,5 @@
 ---
-title: These Are not Your Grandfather’s Hearing Aids
+title: These Are Not Your Grandfather’s Hearing Aids
 date: 2017-03-13T04:02:59.890Z
 draft: false
 description:

@@ -14,7 +14,7 @@ Like many people, I tend to take these natural pairings for granted until they a
 
 Having hearing loss in only one ear seems like it would not be a big deal because after all you still have one good ear. And this is true when you are in a quiet environment listening to only one person. But as we all know our world is not silent. Once someone with unilateral hearing loss leaves their quiet haven, they struggle to follow conversations.
 
-## Here’s why…
+## Here’s Why…
 
 It comes back to how our bodies were created. We were designed with two ears but only one auditory center. Even though our ears can work independently they work best as a team. Each ear collects sound in the environment and then sends that sound to one sole auditory center in the brain, where it is analyzed and interpreted. When the auditory center receives information from one ear only, it is essentially missing 50% of the data needed to do its job. Imagine if you had to do your job with only half the equipment or information you needed. That job becomes much more challenging if not impossible.
 
