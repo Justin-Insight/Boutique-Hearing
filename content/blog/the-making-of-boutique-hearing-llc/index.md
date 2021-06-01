@@ -4,6 +4,7 @@ date: 2021-03-11T04:47:19.533Z
 draft: false
 description:
 image: making-of.jpg
+image_alt: Dr. Corbett sitting on laptop performing hearing tests with a patient
 ---
 
 <!--StartFragment-->

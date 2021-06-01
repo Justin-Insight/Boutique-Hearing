@@ -4,6 +4,7 @@ date: 2019-11-13T04:13:24.350Z
 draft: false
 description:
 image: shopping-bags.jpg
+image_alt: hand holding a number of shopping bags
 ---
 
 <!--StartFragment-->

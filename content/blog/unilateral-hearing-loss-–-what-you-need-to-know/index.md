@@ -4,6 +4,7 @@ date: 2018-09-18T03:53:43.204Z
 draft: false
 description:
 image: out-of-order-ear.jpg
+image_alt: Out of order sign hanging on an ear
 ---
 
 <!--StartFragment-->

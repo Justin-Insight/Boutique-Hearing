@@ -1,3 +1,6 @@
+{{ $image := (.Resources.GetMatch (index .Params.image)) }}
+{{ $smallwebp := $image.Resize "600x q80 webp" }}
+{{ $smalljpg := $image.Resize "600x q80" }}
 <article class="fade-up blog-summary">
     <a href="{{ .Permalink }}" class="blog-summary__link">
       <div class="flex flex-column flex-row-m">
@@ -5,9 +8,12 @@
           <div class="blog-summary__image-wrap">
             {{ $has_image := .Params.image }}
             {{ if $has_image }}
-            <img src="{{ .Permalink }}{{ .Params.image }}" alt="" class="blog-summary__img img-responsive zoom-images" width="300" height="200" loading="lazy">
-            {{ else }}
-            <img src="https://source.unsplash.com/random/800x600" alt="" class="blog-summary__img img-responsive zoom-images" width="300" height="200" loading="lazy">
+            <picture>
+              <source sizes="50vw" srcset="{{ $smallwebp.RelPermalink }}" type="image/webp" >
+              <source sizes="50vw" srcset="{{ $smalljpg.RelPermalink }}" type="image/jpg" >
+              <img sizes="50vw" loading="lazy"
+                  src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Params.image_alt }}" class="blog-summary__img img-responsive zoom-images">
+            </picture>
             {{  end }}
           </div>
         </div>

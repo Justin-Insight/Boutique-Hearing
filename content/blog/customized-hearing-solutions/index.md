@@ -4,6 +4,7 @@ date: 2018-09-22T03:33:59.621Z
 draft: false
 description:
 image: customized-hearing-aids-768x768.jpg
+image_alt: customized hearing aids
 ---
 
 <!--StartFragment-->

@@ -4,6 +4,7 @@ date: 2016-12-21T05:27:02.285Z
 draft: false
 description:
 image: the-l-train.jpg
+image_alt: The chicago l train coming into the station
 ---
 
 <!--StartFragment-->

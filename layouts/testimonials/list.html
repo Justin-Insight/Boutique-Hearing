@@ -3,9 +3,16 @@
         {{ with .Params.intro}}
         <h2>{{ .heading }}</h2>
         <p class="g5">{{ .subhead }}</p>
-        <p>{{ .copy }}</p>
-        <a href="/contact/" class="btn btn-primary">{{ .button_text }}</a>
-        {{  end }}
+        <div class="flex flex-column flex-row-m">
+            <div class="w-100 w-50-m">
+                <p>{{ .copy }}</p>
+                <a href="/contact/" class="btn btn-primary">{{ .button_text }}</a>
+            </div>
+        {{ end }}
+            <div class="w-100 w-50-m">
+                {{ partial  "next-gen-jpg" . }}
+            </div>
+        </div>
         {{ $paginator := .Paginate ( where .Data.Pages "Type" "testimonials" ) }}
         {{ range $paginator.Pages }}
         <div class="fade-up testimonial">

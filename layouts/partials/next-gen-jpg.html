@@ -1,6 +1,14 @@
+{{ $image := (.Resources.GetMatch (index .Params.seo.featured_image)) }}
+{{ $smallwebp := $image.Resize "400x q80 webp" }}
+{{ $mediumwebp := $image.Resize "800x q80 webp" }}
+{{ $smalljpg := $image.Resize "400x q80" }}
+{{ $mediumjpg := $image.Resize "800x q80" }}
 <picture>
-  <source srcset="/images/{{ .image }}.avif" type="image/avif" >
-  <source srcset="/images/{{ .image }}.webp" type="image/webp" >
-  <source srcset="/images/{{ .image }}.jpg" type="image/jpg" > 
-  <img src="/images/{{ .image }}.jpg" alt="{{ .image_alt }}" height="500" width="600" loading="lazy">
+  {{ if .Params.seo.featured_image_avif }}
+    <source srcset="{{ .Params.seo.featured_image_avif }}" type="image/avif" >
+  {{ end }}  
+  <source srcset="{{ $smallwebp.RelPermalink }} 500w, {{ $mediumwebp.RelPermalink }} 800w" type="image/webp" >
+  <source srcset="{{ $smalljpg.RelPermalink }} 500w, {{ $smalljpg.RelPermalink }} 800w" type="image/jpg" >
+  <img loading="lazy"
+      src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Params.seo.featured_image_alt }}" class="blog-card__image">
 </picture>

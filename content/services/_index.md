@@ -3,6 +3,9 @@ title: Services
 seo:
   title: Concierge Hearing Aid Services in Chicago - Boutique Hearing
   description: Boutique Hearing offers high quality hearing evaluations, customized, precise hearing aid fittings and service packages that best fits your needs.
+  featured_image: boutique-hearing-concierge-audiology-services.jpg
+  featured_image_avif: boutique-hearing-concierge-audiology-services.avif
+  featured_image_alt: Dr. Corbett performing various concierge audiology services on patients
 
 intro: 
   heading: White Glove Service
@@ -72,4 +75,12 @@ service_testimonial:
   testimonial: '"Thank you so much for all your help with my recent purchase of new hearing aids. I appreciated your perseverance as we got the new aids to really improve my hearing. It is always a pleasure to work with you."'
   author: —Shelia H.
   button_text: More Testimonials
+
+cta: 
+  schedule_block: true
+  cta_image: dr-corbett-setting-up-hearing-instrument.jpg
+  cta_image_avif: dr-corbett-setting-up-hearing-instrument.avif
+  cta_image_avif_1400: dr-corbett-setting-up-hearing-instrument-1400.avif
+  cta_image_avif_1000: dr-corbett-setting-up-hearing-instrument-1000.avif
+  cta_image_avif_600: dr-corbett-setting-up-hearing-instrument-600.avif
 ---

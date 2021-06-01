@@ -4,6 +4,7 @@ date: 2017-04-06T04:00:52.731Z
 draft: false
 description:
 image: dog-with-otoscope.jpeg
+image_alt: doctor looking in a dogs ear with a otoscope
 ---
 
 <!--StartFragment-->

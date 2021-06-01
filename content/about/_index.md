@@ -3,6 +3,9 @@ title: About
 seo:
   title: About Our Concierge Audiology Company - Boutique Hearing
   description: Boutique Hearing is a concierge audiology practice revolutionizing the way hearing aids are fit, with an energetic spirit to enhance lives by improving hearing
+  featured_image: headshot-of-Dr-Corbett.jpg
+  featured_image_avif: headshot-of-Dr-Corbett.avif
+  featured_image_alt: headshot of Dr. Corbett
 
 our_story:
   heading: Our Story
@@ -17,8 +20,6 @@ our_story:
 
 
   Boutique Hearing was founded with an energetic spirit and firm objective: enhance lives by improving hearing. Having hearing loss is difficult but finding the time to address it should not be. That is the driving force behind Boutique Hearing: convenient, precise, and customized hearing aid fittings in the comfort of your home or office."
-  image: about-dr-corbett
-  image_alt: headshot of Dr. Corbett 
 
 why_boutique: 
   heading: Why Boutique Hearing?
@@ -41,4 +42,12 @@ why_boutique:
         - item: Multiple service tiers are available to match your specific needs
         - item: Clients can choose one or more programming locations
         - item: Multiple assistive listening devices are available
+
+cta: 
+  schedule_block: true
+  cta_image: dr-corbett-and-her-family.jpg
+  cta_image_avif: dr-corbett-and-her-family.avif
+  cta_image_avif_1400: dr-corbett-and-her-family-1400.avif
+  cta_image_avif_1000: dr-corbett-and-her-family-1000.avif
+  cta_image_avif_600: dr-corbett-and-her-family-600.avif
 ---

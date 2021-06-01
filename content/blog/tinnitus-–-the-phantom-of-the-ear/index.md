@@ -4,6 +4,7 @@ date: 2017-05-27T03:55:57.850Z
 draft: false
 description:
 image: tinnitus-2.jpg
+image_alt: woman plugging ears and screaming
 ---
 
 <!--StartFragment-->

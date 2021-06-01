@@ -4,6 +4,7 @@ date: 2018-04-26T03:36:07.628Z
 draft: false
 description:
 image: eye-chart.jpg
+image_alt: Letters on eye chart with glasses sitting on top
 ---
 
 <!--StartFragment-->

@@ -4,6 +4,7 @@ date: 2017-11-21T04:51:07.003Z
 draft: false
 description:
 image: el-train.jpg
+image_alt: Chicago l train
 ---
 
 <!--StartFragment-->

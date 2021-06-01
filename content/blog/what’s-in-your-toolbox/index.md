@@ -4,6 +4,7 @@ date: 2018-11-18T04:31:36.717Z
 draft: false
 description:
 image: toolbox-768x640.jpg
+image_alt: illustrated toolbox with a variety of tools hanging out
 ---
 
 <!--StartFragment-->

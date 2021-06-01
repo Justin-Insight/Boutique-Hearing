@@ -4,6 +4,7 @@ date: 2019-01-31T04:24:45.388Z
 draft: false
 description:
 image: trends-768x450.jpg
+image_alt: hands with a series of icons surrounding
 ---
 
 <!--StartFragment-->

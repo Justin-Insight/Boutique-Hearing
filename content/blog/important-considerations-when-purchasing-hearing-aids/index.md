@@ -4,6 +4,7 @@ date: 2016-11-03T04:33:03.728Z
 draft: false
 description:
 image: 5-considerations.jpg
+image_alt: a variety of hearing aids in different styles
 ---
 
 <!--StartFragment-->

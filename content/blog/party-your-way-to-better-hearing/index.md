@@ -4,6 +4,7 @@ date: 2016-11-22T05:30:21.319Z
 draft: false
 description:
 image: party.jpg
+image_alt: a party of people sitting at a restaurant
 ---
 
 <!--StartFragment-->

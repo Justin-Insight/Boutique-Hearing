@@ -4,6 +4,7 @@ date: 2016-10-19T04:35:38.055Z
 draft: false
 description:
 image: myths-facts-768x509.jpg
+image_alt: myths and facts weighing on a scale
 ---
 
 <!--StartFragment-->

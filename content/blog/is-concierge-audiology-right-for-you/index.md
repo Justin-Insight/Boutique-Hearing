@@ -4,6 +4,7 @@ date: 2019-06-11T03:21:36.516Z
 draft: false
 description:
 image: evelyn-fitting-768x990.jpg
+image_alt: Dr. Corbett fitting a patient with a hearing aid
 ---
 
 <!--StartFragment-->

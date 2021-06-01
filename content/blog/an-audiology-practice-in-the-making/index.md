@@ -4,6 +4,7 @@ date: 2018-01-17T04:47:19.533Z
 draft: false
 description:
 image: logo-boutique-hearing.jpg
+image_alt: The Boutique Hearing logo
 ---
 
 <!--StartFragment-->

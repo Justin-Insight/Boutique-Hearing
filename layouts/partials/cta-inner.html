@@ -1,16 +1,28 @@
+{{ if (eq .Params.cta.schedule_block true) }}
 <section class="fade-up inner-cta blue-noise">
     <div class="container-wide padding-top-10 padding-bottom-10 text-center">
         <h3 class="g2 text-white">Schedule a Consultation</h3>
         <a href="/contact/" class="btn btn-secondary">Request an Appointment Today</a>
     </div>
 </section>
+{{ end }}
+{{ $ctaimage := (.Resources.GetMatch (index .Params.cta.cta_image)) }}
+{{ $ctasmallwebp := $ctaimage.Resize "600x q80 webp" }}
+{{ $ctamediumwebp := $ctaimage.Resize "1000x q80 webp" }}
+{{ $ctalargewebp := $ctaimage.Resize "1400x q80 webp" }}
+{{ $ctaextralargewebp := $ctaimage.Resize "1800x q80 webp" }}
+{{ $ctasmalljpg := $ctaimage.Resize "600x q80" }}
+{{ $ctamediumjpg := $ctaimage.Resize "1000x q80" }}
+{{ $ctalargejpg := $ctaimage.Resize "1400x q80" }}
+{{ $ctaextralargejpg := $ctaimage.Resize "1800x q80" }}
+
 {{ $heroClass := lower .Page.Title }}
-<div class="fade-up cta-image-wrapper {{ anchorize $heroClass }}-image" data-scroll-section>
+<div class="fade-up cta-image-wrapper {{ anchorize $heroClass }}-image">
   <picture>
-    <source sizes="100vw" srcset="{{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-600.avif 500w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1000.avif 800w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1400.avif 1200w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1800.avif 1600w" type="image/avif" > 
-    <source sizes="100vw" srcset="{{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-600.webp 500w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1000.webp 800w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1400.webp 1200w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1800.webp 1600w" type="image/webp" > 
-    <source sizes="100vw" srcset="{{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-600.jpg 500w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1000.jpg 800w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1400.jpg 1200w, {{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1800.jpg 1600w" type="image/jpeg" > 
-    <img src="{{ .Site.BaseURL }}images/{{ anchorize $heroClass }}-cta-image-1800.jpg" alt="" width="1300" height="400" class="cta-image">
+    <source sizes="100vw" srcset="{{ .Params.cta.cta_image_avif_600 }} 600w, {{ .Params.cta.cta_image_avif_1000 }} 1000w, {{ .Params.cta.cta_image_avif_1400 }} 1400w, {{ .Params.cta.cta_image_avif }} 1600w" type="image/avif" > 
+    <source sizes="100vw" srcset="{{ $ctasmallwebp.RelPermalink }} 600w, {{ $ctamediumwebp.RelPermalink }} 1000w, {{ $ctalargewebp.RelPermalink }} 1400w, {{ $ctaextralargewebp.RelPermalink }} 1600w" type="image/webp" > 
+    <source sizes="100vw" srcset="{{ $ctasmalljpg.RelPermalink }} 600w, {{ $ctamediumjpg.RelPermalink }} 1000w, {{ $ctalargejpg.RelPermalink }} 1400w, {{ $ctaextralargejpg.RelPermalink }} 1600w" type="image/jpg" > 
+    <img src="{{ $ctaimage.RelPermalink }}" alt="" width="{{ $ctaimage.Width }}" height="{{ $ctaimage.Height }}" class="cta-image" loading="lazy">
   </picture>
   <div class="cityline"></div>
 </div>

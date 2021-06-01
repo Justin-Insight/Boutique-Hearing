@@ -4,6 +4,7 @@ date: 2017-03-13T04:02:59.890Z
 draft: false
 description:
 image: horn_shaped_ear_trumpet.jpg
+image_alt: antique looking horn
 ---
 
 <!--StartFragment-->

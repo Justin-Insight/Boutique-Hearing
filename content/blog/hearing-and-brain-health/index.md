@@ -4,6 +4,7 @@ date: 2017-02-06T05:05:05.945Z
 draft: false
 description:
 image: hearing-loss-and-dementia.jpg
+image_alt: Untreated hearing loss & dimentia
 ---
 
 <!--StartFragment-->
