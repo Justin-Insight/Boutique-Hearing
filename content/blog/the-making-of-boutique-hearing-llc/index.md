@@ -3,7 +3,7 @@ title: The Making of Boutique Hearing LLC
 date: 2021-03-11T04:47:19.533Z
 draft: false
 description:
-image: making-of.jpg
+image: the-making-of-boutique-hearing.jpg
 image_alt: Dr. Corbett sitting on laptop performing hearing tests with a patient
 ---
 
