@@ -6,13 +6,5 @@
         </article>
     </div>
 </section>
-<div class="fade-up container-wide">
-    <div class="featured-posts">
-     {{ $pages := .Site.RegularPages }}
-     {{ $recentPosts := where $pages "Type" "blog" }}
-     {{ range first 3 $recentPosts }}
-     {{ partial "blog/blog-cards" . }}
-     {{ end }}
-    </div>
-   </div>
+{{ partial "blog/blog-feed" . }}
 {{ end }}
