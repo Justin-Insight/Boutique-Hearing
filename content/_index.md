@@ -3,9 +3,9 @@ title: Home
 seo:
   title: Concierge Audiology Services in Chicago - Boutique Hearing
   description: Boutique Hearing is a concierge audiology service offering hearing evaluations and cutting-edge hearing aid fittings in your home or office.
-  featured_image: concierge-bell.jpg
-  featured_image_avif: concierge-bell.avif
-  featured_image_alt: Service bell sitting on a counter
+  featured_image: dr-corbett-sitting-on-couch-performing-hearing-test-with-patient.jpg
+  featured_image_avif: dr-corbett-sitting-on-couch-performing-hearing-test-with-patient.avif
+  featured_image_alt: Dr. Corbett sitting on a couch with laptop while performing a hearing test with a patient
 
 hero:
   heading: Tailored Hearing

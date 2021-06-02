@@ -1,5 +1,7 @@
 {{ with .Params.service_tiers }}
-<p class="g5 text-primary">{{ .subhead }}</p>
+<div class="container">
+    <p class="g5 text-primary">{{ .subhead }}</p>
+</div>
 <div class="flex flex-column flex-row-m">
     {{ range .service_tiers }}
     <div class="service-cards w-100 w-30-m">
