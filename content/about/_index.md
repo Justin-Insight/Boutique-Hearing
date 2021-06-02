@@ -5,6 +5,7 @@ seo:
   description: Boutique Hearing is a concierge audiology practice revolutionizing the way hearing aids are fit, with an energetic spirit to enhance lives by improving hearing
   featured_image: headshot-of-Dr-Corbett.jpg
   featured_image_avif: headshot-of-Dr-Corbett.avif
+  featured_image_avif_small: headshot-of-Dr-Corbett-600.avif
   featured_image_alt: headshot of Dr. Corbett
 
 our_story:

@@ -5,7 +5,7 @@
 {{ $mediumjpg := $image.Resize "800x q80" }}
 <picture>
   {{ if .Params.seo.featured_image_avif }}
-    <source srcset="{{ .Params.seo.featured_image_avif }}" type="image/avif" >
+    <source srcset="{{ .Params.seo.featured_image_avif_small }} 500w, {{ .Params.seo.featured_image_avif }} 800w" type="image/avif" >
   {{ end }}  
   <source srcset="{{ $smallwebp.RelPermalink }} 500w, {{ $mediumwebp.RelPermalink }} 800w" type="image/webp" >
   <source srcset="{{ $smalljpg.RelPermalink }} 500w, {{ $smalljpg.RelPermalink }} 800w" type="image/jpg" >

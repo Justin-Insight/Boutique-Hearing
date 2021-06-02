@@ -5,6 +5,7 @@ seo:
   description: Our clients say it best when it comes to their satisfaction with Boutique Hearing's concierge audiology services. Read below for comments from our clients.
   featured_image: dr-corbett-performing-hearing-tests-with-patient.jpg
   featured_image_avif: dr-corbett-performing-hearing-tests-with-patient.avif
+  featured_image_avif_small: dr-corbett-performing-hearing-tests-with-patient-600.avif
   featured_image_alt: Dr. Corbett getting ready to perform hearing tests in a patients living room
 
 intro:

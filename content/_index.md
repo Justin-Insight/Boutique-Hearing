@@ -5,6 +5,7 @@ seo:
   description: Boutique Hearing is a concierge audiology service offering hearing evaluations and cutting-edge hearing aid fittings in your home or office.
   featured_image: dr-corbett-sitting-on-couch-performing-hearing-test-with-patient.jpg
   featured_image_avif: dr-corbett-sitting-on-couch-performing-hearing-test-with-patient.avif
+  featured_image_avif_small: dr-corbett-sitting-on-couch-performing-hearing-test-with-patient-600.avif
   featured_image_alt: Dr. Corbett sitting on a couch with laptop while performing a hearing test with a patient
 
 hero:

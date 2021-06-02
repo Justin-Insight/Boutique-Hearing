@@ -4,7 +4,7 @@ seo:
   title: Concierge Hearing Aids in Chicago - Boutique Hearing
   description: Schedule consultation with Boutique Hearing, the Chicago audiology practice that brings white glove service to your front door.
   featured_image: dr-corbett-looking-in-patient-ear.jpg
-  featured_image_avif: headshot-of-Dr-Corbett.avif
+  featured_image_avif: dr-corbett-looking-in-patient-ear.avif
   featured_image_alt: Dr. Corbett looking in patient ear
 
 intro:

@@ -5,6 +5,7 @@ seo:
   description: Boutique Hearing offers high quality hearing evaluations, customized, precise hearing aid fittings and service packages that best fits your needs.
   featured_image: boutique-hearing-concierge-audiology-services.jpg
   featured_image_avif: boutique-hearing-concierge-audiology-services.avif
+  featured_image_avif_small: boutique-hearing-concierge-audiology-services-600.avif
   featured_image_alt: Dr. Corbett performing various concierge audiology services on patients
 
 intro: 
