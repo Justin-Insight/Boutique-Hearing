@@ -50,15 +50,6 @@
   &__form-group textarea {
     height: 20rem;
   }
-  &__btn {
-    border: 1px solid $primaryColor;
-    background: $primaryColor;
-    color: $white;
-    &:hover,
-    &:focus {
-      background: $secondaryColor;
-    }
-  }
 }
 .thank-you {
   .blog-content {
