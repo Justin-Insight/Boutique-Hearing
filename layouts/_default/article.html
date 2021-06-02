@@ -1,7 +1,7 @@
 {{ $image := (.Resources.GetMatch (index .Params.image)) }}
 {{ $smallwebp := $image.Resize "600x q80 webp" }}
 {{ $smalljpg := $image.Resize "600x q80" }}
-<article class="fade-up blog-summary">
+<article class="fade-up blog-summary" role="article">
     <a href="{{ .Permalink }}" class="blog-summary__link">
       <div class="flex flex-column flex-row-m">
         <div class="w-100 w-30-m">

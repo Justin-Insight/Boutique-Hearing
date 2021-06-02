@@ -1,10 +1,10 @@
 {{ "<!-- Header -->" | safeHTML }}
 <a class="screen-reader-skip-to-content" href="#main-content" tabindex="0">Skip to main content</a>
 <a class="screen-reader-skip-to-content" href="#footer" tabindex="0">Skip to footer content</a>
-<header class="site-header" data-scroll-sticky data-scroll-target="header">
+<header class="site-header" role="banner">
   <div class="header-secondary">
     <div class="container-wide">
-      <nav class="header-secondary__subnav">
+      <nav class="header-secondary__subnav" role="navigation" aria-label="Sub Navigation">
         <ul class="header-secondary__nav-list">
           <li class="header-secondary__nav-list-item">
             <a href="tel:{{ site.Params.phone }}">P: {{ site.Params.phone }}</a>
@@ -28,7 +28,7 @@
       </nav>
     </div>
   </div>
-  <nav class="container-wide nav primary-nav">
+  <nav class="container-wide nav primary-nav" role="navigation" aria-label="Primary Navigation">
     <div class="logo-wrapper">
       <a class="brand-logo" href="{{ site.BaseURL }}">
         {{ if site.Params.logo }}
