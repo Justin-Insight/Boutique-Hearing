@@ -20,7 +20,7 @@ intro:
   Boutique Hearing’s goal is not to just bring hearing to everyone, but to bring quality hearing to everyone. To accomplish this Boutique Hearing restructured how hearing aids are priced. The Tiered pricing structure described below provides everyone the opportunity to purchase quality hearing aids.
 
 
-  Service Tier’s were designed with my client’s diverse lifestyles and needs in mind. My client’s will receive the same high quality hearing aids whether they purchase them in Tier one, two or three. What varies between the Tiers are the additional white glove services that come with it such as hearing aid accessories, dehumidifiers, and regular follow up visits with Dr. Corbett."
+  Service Tier’s were designed with our client’s diverse lifestyles and needs in mind. Our client’s will receive the same high quality hearing aids whether they purchase them in Tier one, two or three. What varies between the Tiers are the additional white glove services that come with it such as hearing aid accessories, dehumidifiers, and regular follow up visits with Dr. Corbett."
   image: services
   image_alt: dr.corbett fitting a patient with a hearing aid
 
