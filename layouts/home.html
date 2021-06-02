@@ -53,7 +53,9 @@
     <p class="g5 text-center text-white">({{ .subhead }})</p>
    {{ end }}
    <div class="featured-posts">
-    {{ range first 3 ( .Paginator.Pages.ByDate.Reverse ) }}
+    {{ $pages := .Site.RegularPages }}
+    {{ $recentPosts := where $pages "Type" "blog" }}
+    {{ range first 3 $recentPosts }}
     {{ partial "blog/blog-cards" . }}
     {{ end }}
    </div>

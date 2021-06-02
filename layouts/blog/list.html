@@ -5,7 +5,7 @@
   <p class="g5">{{ .subhead }}</p>
   {{ end }}
   <div class="blog-container">
-    {{ range .Paginator.Pages.ByDate.Reverse }}
+    {{ range (.Paginate ( where .Site.RegularPages "Type" "blog" )).Pages }}
     {{ .Render "article" }}
     {{ end }}
   {{ partial "blog/custom-pagination.html" . }}
