@@ -1,10 +1,18 @@
-{{ define "content" }}
-<section class="fade-up padding-top-4 padding-bottom-4" data-scroll-section>
+{{ define "main" }}
+<section class="fade-up padding-top-4 padding-bottom-4">
     <div class="container">
         <article>
             <p>The page you requested could not be found. <a href="{{ "/" | relURL }}">Go back to the homepage.</a></p>
         </article>
     </div>
 </section>
-{{ partial "blog-feed" . }}
+<div class="fade-up container-wide">
+    <div class="featured-posts">
+     {{ $pages := .Site.RegularPages }}
+     {{ $recentPosts := where $pages "Type" "blog" }}
+     {{ range first 3 $recentPosts }}
+     {{ partial "blog/blog-cards" . }}
+     {{ end }}
+    </div>
+   </div>
 {{ end }}
