@@ -45,6 +45,7 @@
         color: $primaryColor;
       }
       .blog-summary__read-more {
+        color: $primaryColor;
         svg {
           fill: $primaryColor;
           transform: translateX(5px);
@@ -85,11 +86,13 @@
     transition: 0.3s ease-out;
   }
   &__read-more {
+    color: $white;
     margin: 1rem 0;
     display: flex;
     align-items: center;
     transition: 0.3s ease-out;
     svg {
+      fill: $white;
       width: 20px;
       margin-left: 5px;
       transition: 0.3s ease-out;

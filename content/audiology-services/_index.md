@@ -1,5 +1,5 @@
 ---
-title: Services
+title: Audiology Services
 seo:
   title: Concierge Hearing Aid Services in Chicago - Boutique Hearing
   description: Boutique Hearing offers high quality hearing evaluations, customized, precise hearing aid fittings and service packages that best fits your needs.

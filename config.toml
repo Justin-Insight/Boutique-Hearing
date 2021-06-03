@@ -1,6 +1,7 @@
 baseURL = "https://boutique-hearing-dev.netlify.app/"
 languageCode = "en-us"
 title = "Boutique Hearing"
+googleAnalytics = "UA-13074741-42"
 enableRobotsTXT = true
 disableAliases = true
 # post pagination
@@ -67,7 +68,7 @@ summaryLength = 30
 
 [[menu.main]]
     name = "Services"
-    url  = "/services/"
+    url  = "/audiology-services/"
     weight = 3
 
 [[menu.main]]

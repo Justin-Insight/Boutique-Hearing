@@ -1,7 +1,8 @@
 .pagination {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
   margin: 4rem 0;
   .pagination__next,
   .pagination__previous,
@@ -9,13 +10,14 @@
     position: relative;
     z-index: 1;
     font-weight: 700;
+    height: 50px;
     padding: 1rem 2rem;
     text-decoration: none;
     border-radius: 15px;
     transition: 0.3s ease-in-out;
     display: flex;
     align-items: center;
-    margin: 0 10px;
+    margin: 0 1px;
     color: $white;
     background: $black;
     &:hover,
@@ -27,6 +29,12 @@
       stroke: $white;
       width: 20px;
       transition: 0.3s ease-out;
+    }
+    span {
+      display: none;
+      @include breakpoint(sm) {
+        display: flex;
+      }
     }
   }
   &__next {

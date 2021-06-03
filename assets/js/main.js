@@ -65,10 +65,7 @@ function updateAria() {
 const selectAll = (e) => document.querySelectorAll(e);
 
 function fadeInContent() {
-    const introSection = document.querySelector(".intro-section");
-    const fadeWrapper = document.querySelector(".fade-wrapper .container");
     const fadeUp = document.querySelectorAll(".fade-up");
-    const blog = document.querySelector(".blog-container");
 
     gsap.utils.toArray(fadeUp).forEach((fade) => {
         gsap.from(fade, {
