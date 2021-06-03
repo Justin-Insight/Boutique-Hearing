@@ -19,12 +19,12 @@
       margin: 0;
       padding-bottom: 4rem;
     }
-    // &__read-more {
-    //   color: $white;
-    //   svg {
-    //     fill: $white;
-    //   }
-    // }
+    &__read-more {
+      color: $white;
+      svg {
+        fill: $white;
+      }
+    }
   }
 }
 .blog-summary {
