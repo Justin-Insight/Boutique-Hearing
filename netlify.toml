@@ -7,3 +7,9 @@
 [build]
   command = "hugo"
   publish = "public"
+
+[[redirects]]
+  from = "https://boutiquehearing.net/"
+  to = "https://boutiquehearing.com/"
+  status = 301
+  force = true
