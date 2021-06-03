@@ -19,6 +19,12 @@
       margin: 0;
       padding-bottom: 4rem;
     }
+    &__read-more {
+      color: $white;
+      svg {
+        fill: $white;
+      }
+    }
   }
 }
 .blog-summary {
@@ -86,13 +92,11 @@
     transition: 0.3s ease-out;
   }
   &__read-more {
-    color: $white;
     margin: 1rem 0;
     display: flex;
     align-items: center;
     transition: 0.3s ease-out;
     svg {
-      fill: $white;
       width: 20px;
       margin-left: 5px;
       transition: 0.3s ease-out;
