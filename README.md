@@ -85,7 +85,7 @@ image_alt: hand holding a number of shopping bags
 
 3. The post fields here are mirrors of the post front matter. Enter in your title, date, draft state, description, image and body. Note: The draft state will be set to true by default, select and turn off to automatically publish your post when you're ready.
 
-4. When ready to publish, simply click the Publish button in the top right corner. Netlify CMS will then create your new folder structure and appropriate markdown file for your post and commit that to your git repo. This will then trigger a new build in Netlify. Give Netlify a minute or two to rebuild your site and then go view your newsly published blog post.
+4. When ready to publish, simply click the Publish button in the top right corner. Netlify CMS will then create your new folder structure and appropriate markdown file for your post and commit that to your git repo. This will then trigger a new build in Netlify. Give Netlify a minute or two to rebuild your site and then go view your newly published blog post.
 
 ## Deploy to Netlify
 
