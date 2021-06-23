@@ -39,7 +39,5 @@ blog:
   subhead: Sound Advice
 
 video:
-  heading: Boutique Hearing featured on American Health Front
+  heading: Learn More About Our Services
 ---
-
-{{< youtube pb1QAUkaYns >}}
