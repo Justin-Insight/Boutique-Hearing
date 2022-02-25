@@ -11,8 +11,7 @@
             <picture>
               <source sizes="50vw" srcset="{{ $smallwebp.RelPermalink }}" type="image/webp" >
               <source sizes="50vw" srcset="{{ $smalljpg.RelPermalink }}" type="image/jpg" >
-              <img sizes="50vw" loading="lazy"
-                  src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Params.image_alt }}" class="blog-summary__img img-responsive zoom-images">
+              <img loading="lazy" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Params.image_alt }}" class="blog-summary__img img-responsive zoom-images">
             </picture>
             {{  end }}
           </div>

@@ -9,7 +9,7 @@
         <picture>
           <source sizes="50vw" srcset="{{ $featuredsmallwebp.RelPermalink }}" type="image/webp" >
           <source sizes="50vw" srcset="{{ $featuredsmalljpg.RelPermalink }}" type="image/jpg" >
-          <img sizes="50vw" loading="lazy"
+          <img loading="lazy"
               src="{{ $featuredblogimage.RelPermalink }}" width="{{ $featuredblogimage.Width }}" height="{{ $featuredblogimage.Height }}" alt="{{ .Params.image_alt }}" class="blog-summary__img img-responsive zoom-images">
         </picture>
         {{  end }}

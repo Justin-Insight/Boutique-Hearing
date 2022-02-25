@@ -5,10 +5,10 @@
 {{ $mediumjpg := $image.Resize "800x q80" }}
 <picture>
   {{ if .Params.seo.featured_image_avif }}
-    <source srcset="{{ .Params.seo.featured_image_avif_small }} 500w, {{ .Params.seo.featured_image_avif }} 800w" type="image/avif" >
+    <source sizes="50vw" srcset="{{ .Params.seo.featured_image_avif_small }} 500w, {{ .Params.seo.featured_image_avif }} 800w" type="image/avif" >
   {{ end }}  
-  <source srcset="{{ $smallwebp.RelPermalink }} 500w, {{ $mediumwebp.RelPermalink }} 800w" type="image/webp" >
-  <source srcset="{{ $smalljpg.RelPermalink }} 500w, {{ $smalljpg.RelPermalink }} 800w" type="image/jpg" >
+  <source sizes="50vw" srcset="{{ $smallwebp.RelPermalink }} 500w, {{ $mediumwebp.RelPermalink }} 800w" type="image/webp" >
+  <source sizes="50vw" srcset="{{ $smalljpg.RelPermalink }} 500w, {{ $smalljpg.RelPermalink }} 800w" type="image/jpg" >
   <img loading="lazy"
       src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ .Params.seo.featured_image_alt }}" class="blog-card__image">
 </picture>

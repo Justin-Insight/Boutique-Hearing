@@ -5,19 +5,26 @@
   background-size: cover;
   background-image: url("/images/cta-footer-cityscape2.jpg");
 }
+
 .cta-button {
   margin-bottom: 4rem;
 }
+
 .cta-image-wrapper {
   position: relative;
+  max-height: 600px;
+  overflow: hidden;
 }
+
 .cta-image {
   height: 300px;
   object-fit: cover;
+
   @include breakpoint(md) {
     height: auto;
   }
 }
+
 .cityline {
   position: absolute;
   bottom: -20px;
