@@ -39,6 +39,16 @@
 
     {{ template "_internal/google_analytics.html" . }}
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZ6J3X0LEB"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PZ6J3X0LEB');
+    </script>
+
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 </head>
