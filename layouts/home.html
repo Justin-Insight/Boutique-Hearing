@@ -1,29 +1,14 @@
 {{ define "main" }}
 <section class="home-hero">
-  <div
-    class="
-      container-wide
-      padding-top-6 padding-bottom-6
-      flex flex-column flex-row-s flex-center
-    "
-  >
+  <div class="container-wide padding-top-6 padding-bottom-6 flex flex-column flex-row-s flex-center">
     {{ with .Params.hero }}
     <div class="w-100 w-50-s">
       <h1 class="text-primary">{{ .heading }}</h1>
       <p class="g5 text-white">{{ .subhead | markdownify }}</p>
       <p class="text-white">{{ .copy }}</p>
-      <a href="/about/" class="btn btn-secondary"
-        >{{ .button_text }}<span class="screen-reader-text">
-          About Boutique Hearing</span
-        ></a
-      >
-      <a
-        href="https://www.shoeboxonline.com/boutiquehearing/?"
-        class="btn btn-primary"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Test Your Hearing!</a
-      >
+      <a href="/about/" class="btn btn-secondary">{{ .button_text }}<span class="screen-reader-text">
+          About Boutique Hearing</span></a>
+      <a href="https://www.shoeboxonline.com/boutiquehearing/?" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Test Your Hearing!</a>
     </div>
     <div class="w-100 w-50-s">{{ partial "next-gen-png" . }}</div>
     {{ end }}
@@ -75,12 +60,6 @@
     {{ with .Params.video }}
     <h3 class="g2 text-center">{{ .heading }}</h3>
     {{ end }}
-    <!-- <div class="youtube-container">
-      <lite-youtube
-        videoid="ANEBzvuVXHg"
-        videotitle="Boutique Hearing Services Overview"
-      ></lite-youtube>
-    </div> -->
     <div class="aspect-ratio">
       <iframe
         width="560"
