@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="home-hero">
-  <div class="container-wide padding-top-6 padding-bottom-6 flex flex-column flex-row-s flex-center">
+  <div class="container-wide padding-top-6 padding-bottom-6 flex flex-column flex-row-s flex-center gap-md">
     {{ with .Params.hero }}
     <div class="w-100 w-50-s">
       <h1 class="text-primary">{{ .heading }}</h1>
@@ -10,7 +10,13 @@
           About Boutique Hearing</span></a>
       <a href="https://www.shoeboxonline.com/boutiquehearing/?" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Test Your Hearing!</a>
     </div>
-    <div class="w-100 w-50-s">{{ partial "next-gen-png" . }}</div>
+    <div class="w-100 w-50-s">
+      <img src="/images/book-mockup-no-back-3.png" alt="A Sound Choice book cover" style="max-width:200px;margin:0 auto 5.5rem auto;">
+      <h2 class="g1 text-primary text-center">A Sound Choice</h2>
+      <div class="text-center">
+        <a href="#a-sound-choice" class="btn btn-primary">Learn More About The Book</a>
+      </div>
+    </div>
     {{ end }}
   </div>
 </section>
@@ -28,6 +34,20 @@
         <h3>{{ .heading }}</h3>
         <p>{{ .copy }}</p>
         {{ end }} {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="white-noise" id="a-sound-choice">
+  <div class="fade-up container-wide padding-top-10 padding-bottom-10">
+    <div class="flex flex-column flex-row-m gap-md">
+      <div class="image-wrap w-100 w-40-m">
+        <img src="/images/book-mockup-no-back-3.png" alt="A Sound Choice book cover" style="max-width:300px;margin:0 auto 5.5rem auto;">
+      </div>
+      <div class="w-100 w-60-m" style="margin-block:auto;">
+        <h2>A Sound Choice</h2>
+        <p>If you or someone you know struggles with hearing loss you need to read this book. A Sound Choice explains how the ear and brain work together to hear and what happens when hearing loss occurs. Dr. Corbett explains "Many people do not realize how much of our ability to hear or process what we hear occurs in the brain rather than in the ear." In writing the book A Sound Choice her goal was to educate the reader on how they hear as well as how hearing loss occurs and what can be done to improve hearing aside from or in conjunction with hearing aids.</p>
+        <a href="https://www.amazon.com/Sound-Choice-Almost-Unbiased-Hearing-ebook/dp/B0CSJW6CSK/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Buy The Book</a>
       </div>
     </div>
   </div>

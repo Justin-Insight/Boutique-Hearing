@@ -1,0 +1,24 @@
+.gap-sm {
+  gap: 20px;
+  gap: clamp(10.25px, 5vw, 20px);
+}
+
+.gap-md {
+  gap: 31.25px;
+  gap: clamp(12px, 5vw, 31.25px);
+}
+
+.gap-lg {
+  gap: 49px;
+  gap: clamp(16px, 5vw, 49px);
+}
+
+.gap-xl {
+  gap: 76px;
+  gap: clamp(20px, 5vw, 76px);
+}
+
+.gap-xxl {
+  gap: 119px;
+  gap: clamp(25px, 5vw, 119px);
+}

@@ -407,8 +407,9 @@
 }
 .padding-bottom-10 {
   padding-bottom: 5rem;
+  
   @include breakpoint(md) {
-    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 }
 .margin-top-1 {
